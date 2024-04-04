@@ -9,6 +9,7 @@ class VectorHeap<T extends Comparable<T>> implements PriorityQueue<T> {
         PacientesList = new Vector<>();
     }
 
+    //Metodo para añadir elemento a la cola
     @Override
     public boolean add(T elemento) {
         PacientesList.add(elemento);
